@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-22T10:43:01 CAT" name="Suite" finished-at="2023-06-22T10:44:03 CAT" duration-ms="62230">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.runValidation()[pri:0, instance:rahulshettyacademy.test.ErrorValidations@7ae42ce3]" name="runValidation" class="rahulshettyacademy.test.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.test.SubmitOrderTest@3f91b517]" name="submitOrder" class="rahulshettyacademy.test.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-06-22T10:43:01 CAT" name="Error Validation Test" finished-at="2023-06-22T10:43:18 CAT" duration-ms="16569">
+      <class name="rahulshettyacademy.test.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.test.ErrorValidations@7ae42ce3]" started-at="2023-06-22T10:43:01 CAT" name="launchApplication" finished-at="2023-06-22T10:43:15 CAT" duration-ms="13747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="runValidation()[pri:0, instance:rahulshettyacademy.test.ErrorValidations@7ae42ce3]" started-at="2023-06-22T10:43:15 CAT" name="runValidation" finished-at="2023-06-22T10:43:17 CAT" duration-ms="2438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.test.ErrorValidations@7ae42ce3]" started-at="2023-06-22T10:43:17 CAT" name="tearDown" finished-at="2023-06-22T10:43:18 CAT" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rahulshettyacademy.test.ErrorValidations -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2023-06-22T10:43:01 CAT" name="Submit Order Test" finished-at="2023-06-22T10:44:03 CAT" duration-ms="62230">
+      <class name="rahulshettyacademy.test.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.test.SubmitOrderTest@3f91b517]" started-at="2023-06-22T10:43:01 CAT" name="launchApplication" finished-at="2023-06-22T10:43:15 CAT" duration-ms="13549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.test.SubmitOrderTest@3f91b517]" started-at="2023-06-22T10:43:15 CAT" name="submitOrder" data-provider="getData" finished-at="2023-06-22T10:43:26 CAT" duration-ms="10542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.test.SubmitOrderTest@3f91b517]" started-at="2023-06-22T10:43:26 CAT" name="tearDown" finished-at="2023-06-22T10:43:26 CAT" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.test.SubmitOrderTest@3f91b517]" started-at="2023-06-22T10:43:26 CAT" name="launchApplication" finished-at="2023-06-22T10:43:30 CAT" duration-ms="4085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.test.SubmitOrderTest@3f91b517]" started-at="2023-06-22T10:43:30 CAT" name="submitOrder" data-provider="getData" finished-at="2023-06-22T10:43:35 CAT" duration-ms="5714" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button _ngcontent-xlu-c33="" routerlink="/dashboard/cart" class="btn btn-custom" style="margin-top: -10px;" tabindex="0">...</button> is not clickable at point (1205, 27). Other element would receive the click: <div _ngcontent-xlu-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed; opacity: 1;">...</div>
+  (Session info: headless chrome=114.0.5735.134)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f2936cb41fbf6e956f5ef099b07608f0, clickElement {id=3F3E9CE6E281BB2D06C74B420F69F768_element_29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KHUTHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54951}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54951/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 5000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f2936cb41fbf6e956f5ef099b07608f0)] -> css selector: [routerlink*='cart']]
+Session ID: f2936cb41fbf6e956f5ef099b07608f0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-xlu-c33="" routerlink="/dashboard/cart" class="btn btn-custom" style="margin-top: -10px;" tabindex="0">...</button> is not clickable at point (1205, 27). Other element would receive the click: <div _ngcontent-xlu-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed; opacity: 1;">...</div>
+  (Session info: headless chrome=114.0.5735.134)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f2936cb41fbf6e956f5ef099b07608f0, clickElement {id=3F3E9CE6E281BB2D06C74B420F69F768_element_29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KHUTHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54951}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54951/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 5000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f2936cb41fbf6e956f5ef099b07608f0)] -> css selector: [routerlink*='cart']]
+Session ID: f2936cb41fbf6e956f5ef099b07608f0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at rahulshettyacademy.AbstractComponents.AbstractComponent.goToCart(AbstractComponent.java:46)
+at rahulshettyacademy.test.SubmitOrderTest.submitOrder(SubmitOrderTest.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.test.SubmitOrderTest@3f91b517]" started-at="2023-06-22T10:43:35 CAT" name="tearDown" finished-at="2023-06-22T10:43:35 CAT" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.test.SubmitOrderTest@3f91b517]" started-at="2023-06-22T10:43:35 CAT" name="launchApplication" finished-at="2023-06-22T10:43:40 CAT" duration-ms="4154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.test.SubmitOrderTest@3f91b517]" started-at="2023-06-22T10:43:40 CAT" name="submitOrder" data-provider="getData" finished-at="2023-06-22T10:43:51 CAT" duration-ms="11308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.test.SubmitOrderTest@3f91b517]" started-at="2023-06-22T10:43:51 CAT" name="tearDown" finished-at="2023-06-22T10:43:55 CAT" duration-ms="4450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.test.SubmitOrderTest@3f91b517]" started-at="2023-06-22T10:43:55 CAT" name="launchApplication" finished-at="2023-06-22T10:43:59 CAT" duration-ms="3833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkHistoryPage()[pri:0, instance:rahulshettyacademy.test.SubmitOrderTest@3f91b517]" started-at="2023-06-22T10:43:59 CAT" name="checkHistoryPage" finished-at="2023-06-22T10:44:03 CAT" depends-on-methods="rahulshettyacademy.test.SubmitOrderTest.submitOrder" duration-ms="4153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHistoryPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.test.SubmitOrderTest@3f91b517]" started-at="2023-06-22T10:44:03 CAT" name="tearDown" finished-at="2023-06-22T10:44:03 CAT" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rahulshettyacademy.test.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
