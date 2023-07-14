@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Khuthadzo Mulaudzi\eclipse-workspace\SeleniumFrameworkDesign\testSuites\testng.xml</span>
+                    <span>C:\Git Workspace\TestAutomation\testSuites\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,  1 skipped,  4 passed</span>
+                    <span class="method-stats">6 methods, 2 failed,  3 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="rahulshettyacademy.test.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za})">submitOrder({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="rahulshettyacademy.test.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})">submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="rahulshettyacademy.test.SubmitOrderTest" class="method navigator-link" hash-for-method="checkHistoryPage">checkHistoryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title skipped">Retried methods</span>
@@ -107,6 +140,11 @@
                         <a href="#" panel-name="suite-Suite" title="rahulshettyacademy.test.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za})">submitOrder({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="rahulshettyacademy.test.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})">submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
@@ -118,22 +156,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="rahulshettyacademy.test.SubmitOrderTest" class="method navigator-link" hash-for-method="checkHistoryPage">checkHistoryPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="rahulshettyacademy.test.ErrorValidations" class="method navigator-link" hash-for-method="runValidation">runValidation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="rahulshettyacademy.test.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})">submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="rahulshettyacademy.test.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za})">submitOrder({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -148,9 +171,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">rahulshettyacademy.test.SubmitOrderTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -160,15 +183,149 @@
                   </a> <!-- submitOrder({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za}) -->
                   <span class="method-name">submitOrder</span>
                   <span class="parameters">({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za})</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-xlu-c33=&quot;&quot; routerlink=&quot;/dashboard/cart&quot; class=&quot;btn btn-custom&quot; style=&quot;margin-top: -10px;&quot; tabindex=&quot;0&quot;&gt;...&lt;/button&gt; is not clickable at point (1205, 27). Other element would receive the click: &lt;div _ngcontent-xlu-c31=&quot;&quot; class=&quot;ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted&quot; style=&quot;background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed; opacity: 1;&quot;&gt;...&lt;/div&gt;
-  (Session info: headless chrome=114.0.5735.134)
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-mfq-c33=&quot;&quot; routerlink=&quot;/dashboard/cart&quot; class=&quot;btn btn-custom&quot; style=&quot;margin-top: -10px;&quot; tabindex=&quot;0&quot;&gt;...&lt;/button&gt; is not clickable at point (1031, 27). Other element would receive the click: &lt;div _ngcontent-mfq-c31=&quot;&quot; class=&quot;ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating&quot; style=&quot;background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.199)
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f2936cb41fbf6e956f5ef099b07608f0, clickElement {id=3F3E9CE6E281BB2D06C74B420F69F768_element_29}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KHUTHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54951}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54951/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 5000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f2936cb41fbf6e956f5ef099b07608f0)] -&gt; css selector: [routerlink*=&apos;cart&apos;]]
-Session ID: f2936cb41fbf6e956f5ef099b07608f0
+Command: [9aaf21cea45591c398696ee74a6b99b2, clickElement {id=6F2BAC2991597EF26D07AADD3C700B3E_element_34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KHUTHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61299}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61299/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 5000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9aaf21cea45591c398696ee74a6b99b2)] -&gt; css selector: [routerlink*=&apos;cart&apos;]]
+Session ID: 9aaf21cea45591c398696ee74a6b99b2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at rahulshettyacademy.AbstractComponents.AbstractComponent.goToCart(AbstractComponent.java:46)
+	at rahulshettyacademy.test.SubmitOrderTest.submitOrder(SubmitOrderTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})">
+                  </a> <!-- submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-bgl-c33=&quot;&quot; routerlink=&quot;/dashboard/cart&quot; class=&quot;btn btn-custom&quot; style=&quot;margin-top: -10px;&quot; tabindex=&quot;0&quot;&gt;...&lt;/button&gt; is not clickable at point (1031, 27). Other element would receive the click: &lt;div _ngcontent-bgl-c31=&quot;&quot; class=&quot;ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating&quot; style=&quot;background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.199)
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3f755b6230ab5330d9a71fabc4ab5e0, clickElement {id=766392A4E1855C95A1817CABB30D34EB_element_34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KHUTHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61220}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61220/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 5000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a3f755b6230ab5330d9a71fabc4ab5e0)] -&gt; css selector: [routerlink*=&apos;cart&apos;]]
+Session ID: a3f755b6230ab5330d9a71fabc4ab5e0
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at rahulshettyacademy.AbstractComponents.AbstractComponent.goToCart(AbstractComponent.java:46)
+	at rahulshettyacademy.test.SubmitOrderTest.submitOrder(SubmitOrderTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">rahulshettyacademy.test.SubmitOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHistoryPage">
+                  </a> <!-- checkHistoryPage -->
+                  <span class="method-name">checkHistoryPage</span>
+                  <div class="stack-trace">java.lang.Throwable: Method SubmitOrderTest.checkHistoryPage()[pri:0, instance:rahulshettyacademy.test.SubmitOrderTest@3f91b517] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitOrder({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za})">
+                  </a> <!-- submitOrder({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za})</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-uby-c33=&quot;&quot; routerlink=&quot;/dashboard/cart&quot; class=&quot;btn btn-custom&quot; style=&quot;margin-top: -10px;&quot; tabindex=&quot;0&quot;&gt;...&lt;/button&gt; is not clickable at point (1031, 27). Other element would receive the click: &lt;div _ngcontent-uby-c31=&quot;&quot; class=&quot;ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating&quot; style=&quot;background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.199)
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [158719a9140416268614881f8decc113, clickElement {id=3BA2469D8C434A647E5393F6A3364B6E_element_42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KHUTHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61257}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61257/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 5000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (158719a9140416268614881f8decc113)] -&gt; css selector: [routerlink*=&apos;cart&apos;]]
+Session ID: 158719a9140416268614881f8decc113
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at rahulshettyacademy.AbstractComponents.AbstractComponent.goToCart(AbstractComponent.java:46)
+	at rahulshettyacademy.test.SubmitOrderTest.submitOrder(SubmitOrderTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})">
+                  </a> <!-- submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-mdt-c33=&quot;&quot; routerlink=&quot;/dashboard/cart&quot; class=&quot;btn btn-custom&quot; style=&quot;margin-top: -10px;&quot; tabindex=&quot;0&quot;&gt;...&lt;/button&gt; is not clickable at point (1031, 27). Other element would receive the click: &lt;div _ngcontent-mdt-c31=&quot;&quot; class=&quot;ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating&quot; style=&quot;background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.199)
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af7481125aa85472bcc6269bbab52fc3, clickElement {id=58333C1A343D4DB3048166BE95297EDC_element_34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KHUTHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61466}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61466/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 5000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (af7481125aa85472bcc6269bbab52fc3)] -&gt; css selector: [routerlink*=&apos;cart&apos;]]
+Session ID: af7481125aa85472bcc6269bbab52fc3
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -208,41 +365,10 @@ Session ID: f2936cb41fbf6e956f5ef099b07608f0
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">rahulshettyacademy.test.SubmitOrderTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkHistoryPage">
-                  </a> <!-- checkHistoryPage -->
-                  <span class="method-name">checkHistoryPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})">
-                  </a> <!-- submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za}) -->
-                  <span class="method-name">submitOrder</span>
-                  <span class="parameters">({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitOrder({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za})">
-                  </a> <!-- submitOrder({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za}) -->
-                  <span class="method-name">submitOrder</span>
-                  <span class="parameters">({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Khuthadzo Mulaudzi\eclipse-workspace\SeleniumFrameworkDesign\testSuites\testng.xml</span>
+            <span class="header-content">C:\Git Workspace\TestAutomation\testSuites\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -318,32 +444,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'submitOrder')
 data.setCell(0, 2, 'rahulshettyacademy.test.SubmitOrderTest')
-data.setCell(0, 3, 11308);
+data.setCell(0, 3, 5882);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'submitOrder')
 data.setCell(1, 2, 'rahulshettyacademy.test.SubmitOrderTest')
-data.setCell(1, 3, 10542);
+data.setCell(1, 3, 5558);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'submitOrder')
 data.setCell(2, 2, 'rahulshettyacademy.test.SubmitOrderTest')
-data.setCell(2, 3, 5714);
+data.setCell(2, 3, 5541);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkHistoryPage')
+data.setCell(3, 1, 'submitOrder')
 data.setCell(3, 2, 'rahulshettyacademy.test.SubmitOrderTest')
-data.setCell(3, 3, 4153);
+data.setCell(3, 3, 5320);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runValidation')
 data.setCell(4, 2, 'rahulshettyacademy.test.ErrorValidations')
-data.setCell(4, 3, 2438);
+data.setCell(4, 3, 2709);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkHistoryPage')
+data.setCell(5, 2, 'rahulshettyacademy.test.SubmitOrderTest')
+data.setCell(5, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -379,66 +509,80 @@ return data;
               <div class="chronological-class-name">rahulshettyacademy.test.SubmitOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">185 ms</span>
+                <span class="method-start">188 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})</span>
-                <span class="method-start">13737 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">rahulshettyacademy.test.ErrorValidations</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">runValidation</span>
-                <span class="method-start">13747 ms</span>
+                <span class="method-start">9370 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rahulshettyacademy.test.SubmitOrderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})</span>
+                <span class="method-start">9383 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rahulshettyacademy.test.ErrorValidations</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16193 ms</span>
+                <span class="method-start">12092 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">rahulshettyacademy.test.SubmitOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24280 ms</span>
+                <span class="method-start">14703 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">24375 ms</span>
+                <span class="method-start">14813 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">submitOrder({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za})</span>
-                <span class="method-start">28460 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">submitOrder({password=Test1234, product=ADIDAS ORIGINAL, email=mrmulaudzi@yahoo.co.za})</span>
+                <span class="method-start">19414 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">34174 ms</span>
+                <span class="method-start">25327 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">34216 ms</span>
+                <span class="method-start">25453 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">submitOrder({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za})</span>
-                <span class="method-start">38370 ms</span>
+                <span class="method-start">30059 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">49678 ms</span>
+                <span class="method-start">35630 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">54136 ms</span>
+                <span class="method-start">35738 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">submitOrder({password=Test1234, product=IPHONE 13 PRO, email=mrmulaudzi@yahoo.co.za})</span>
+                <span class="method-start">40661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46877 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">checkHistoryPage</span>
-                <span class="method-start">57969 ms</span>
+                <span class="method-start">47054 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">62122 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

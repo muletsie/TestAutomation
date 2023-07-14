@@ -8,9 +8,10 @@
     <classes>
       <class name="rahulshettyacademy.test.SubmitOrderTest">
         <methods>
-          <include name="submitOrder" invocation-numbers="1"/>
+          <include name="submitOrder" invocation-numbers="0 1"/>
           <include name="tearDown"/>
           <include name="launchApplication"/>
+          <include name="checkHistoryPage"/>
         </methods>
       </class> <!-- rahulshettyacademy.test.SubmitOrderTest -->
     </classes>
