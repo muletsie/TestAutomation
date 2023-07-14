@@ -21,6 +21,7 @@ public class openBrowser {
 		driver.findElement(By.cssSelector("button")).click();
 		String loggedUser = driver.findElement(By.cssSelector("a[class='dropdown-toggle']")).getText();
 		Assert.assertEquals("Hi,Amanda Dovey - LS Business", loggedUser);
+		System.out.println("Master up to date");
 		driver.close();
 	}
 
