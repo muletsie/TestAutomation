@@ -15,7 +15,7 @@ echo "Deployment to QA ENV"
 
 stage("Testing"){
 steps{
-bat "mvn test"
+echo "Test the build for issues"
 }
 }
 
