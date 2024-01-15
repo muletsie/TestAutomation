@@ -7,13 +7,13 @@ bat "mvn clean"
 }
 }
 
-stage("Deploy"){
+stage("Deploy to QA"){
 steps{
 echo "Deployment to QA ENV"
 }
 }
 
-stage("Test"){
+stage("Testing"){
 steps{
 bat "mvn test"
 }
@@ -25,9 +25,9 @@ bat "mvn compile"
 }
 }
 
-stage("Release"){
+stage("Release to Prod"){
 steps{
-echo "Release code to prod"
+echo "Release to prod"
 }
 }
 }
